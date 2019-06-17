@@ -1,0 +1,3 @@
+payload={"\"debit\"":"\"$1\""}
+echo $payload
+curl -H "Accept: application/json" -H "Content-type:  application/json" -X POST -d$payload localhost:8081/trustline/debit

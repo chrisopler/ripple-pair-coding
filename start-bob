@@ -1,0 +1,1 @@
+java -Dserver.port=8081 -Dname=Alice -Dpeer="http://127.0.0.1:8080" -jar application/target/application-0.0.1-SNAPSHOT.jar
